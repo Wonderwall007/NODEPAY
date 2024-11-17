@@ -23,7 +23,6 @@ def banner():  # No indentation
     print(mrh + f" Developer: Nekolia | Username: @kriptoGit888")
     log_line()
     
-
 PING_INTERVAL = 30 
 RETRIES = 60  
 MAX_CONNECTIONS = 15 
@@ -255,7 +254,7 @@ async def main():
 
 if __name__ == '__main__':
     try:
-        banner()  # Call the banner function here to print it at the start
+        banner()
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
         logger.info("Program terminated by user.")
